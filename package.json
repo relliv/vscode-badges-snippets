@@ -23,6 +23,13 @@
         "url": "https://github.com/alexzshl/vscode-badges-snippets/issues"
     },
     "icon": "images/logo.png",
+    "badges": [
+        {
+            "url": "https://img.shields.io/github/license/alexzshl/vscode-badges-snippets?style=flat&color=lightgrey",
+            "href": "https://github.com/alexzshl/vscode-badges-snippets/blob/master/LICENSE",
+            "description": "license"
+        }
+    ],
     "author": {
         "name": "alexzshl"
     },
