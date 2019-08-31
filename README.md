@@ -53,4 +53,9 @@ none.
 
 Initial release of ...
 
+## Thanks
+
+[![shields.io](https://img.shields.io/badge/Shields.IO-black)](https://shields.io/category/license)
+[![shields.io-repo](https://img.shields.io/static/v1?label=&message=Shields.IO&style=social&logo=github)](https://github.com/badges/shields)
+
 **Enjoy!**
