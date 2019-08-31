@@ -1,7 +1,7 @@
 # snippet-badge
 
 [![vsm-version](https://img.shields.io/visual-studio-marketplace/v/alexzshl.badges-snippets?style=flat&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=alexzshl.badges-snippets)
-[![license](https://img.shields.io/github/license/alexzshl/vscode-badge-snippets?style=flat&color=lightgrey)](https://github.com/alexzshl/vscode-badge-snippets/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/alexzshl/vscode-badges-snippets?style=flat&color=lightgrey)](https://github.com/alexzshl/vscode-badges-snippets/blob/master/LICENSE)
 
 Snippets to quickly insert shields.io badges into Markdown documents.
 
