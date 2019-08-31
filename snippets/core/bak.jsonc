@@ -1,0 +1,74 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"hello": {
+		"prefix": "hello",
+		"body": [
+			// "${1:hello-${2:world}} echo ${3:test}"
+			"${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}",
+			"${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/}",
+			// "${TM_FILENAME/README.(mm)?/${1:?mm:markdown}/}"
+			// "${1} ${2} -> ${1/Hello/Hallo/} ${2/World/Welt/}"
+		],
+		"description": "Log output to console"
+	},
+	"badge-static": {
+		"prefix": ["badge-static","bs"],
+		"body": [
+			"![${1:alttext}](https://img.shields.io/badge/${2:label}-${3:message}-${4|BrightGreen,YellowGreen,Green,Blue,Yellow,Red,LightGrey,success,important,critical,infomational,inactive,blueviolet,ff69b4,9cf|})"
+		],
+		"description": "static badge",
+	},
+	"badge-static_style": {
+		"prefix": ["badge-static-style","bss"],
+		"body": [
+			"![${1:alttext}](https://img.shields.io/badge/${2:label}-${3:message}-${4|BrightGreen,YellowGreen,Green,Blue,ff69b4,9cf|}?style=${5|flat-square,flat,plastic,for-the-badge,social|})"
+		],
+		"description": "static badge",
+	},
+	"badge-static_style_logo": {
+		"prefix": ["badge-static_style_logo","bssl"],
+		"body": [
+			"![${1:alttext}](https://img.shields.io/badge/${2:label}-${3:message}-${4:brightgreen}?style=${5|flat-square,flat,plastic,for-the-badge,social|&logo=${6:appveyo})"
+		],
+		"description": "static badge",
+	},
+	"badge-static-parameters": {
+		"prefix": ["badge-static_parameters","bsp"],
+		"body": [
+			"![${1:alttext}](https://img.shields.io/static/v1?label=${2:label}&message=${3:message}&color=${4:brightgreen})"
+		],
+		"description": "static badge using query string parameters",
+	},
+	"badge-VSMarketplace-version": {
+		"prefix": ["badge-VSMarketplace-version", "bvv"],
+		"body": [
+			"[![version](https://img.shields.io/visual-studio-marketplace/v/${1:extensionId}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})"
+		],
+		"description": "static badge using query string parameters",
+	},
+	"badge-VSMarketplace-version-CLIPBOARD": {
+		"prefix": ["badge-VSMarketplace-version-CLIPBOARD", "bvvc"],
+		"body": [
+			"[![version](https://img.shields.io/visual-studio-marketplace/v/${CLIPBOARD:default}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](${CLIPBOARD:https://marketplace.visualstudio.com/items?itemName=${1:extensionId}})"
+		],
+		"description": "static badge using query string parameters",
+	},
+	"badge-VSMarketplace-version_style": {
+		"prefix": ["badge-VSMarketplace-version_style", "bvvs"],
+		"body": [
+			"[![version](https://img.shields.io/visual-studio-marketplace/v/${1:extensionId}?style=${2|flat-square,flat,plastic,for-the-badge,social|}&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})"
+		],
+		"description": "static badge using query string parameters",
+	},
+	"badge-VSMarketplace-version-long": {
+		"prefix": ["badge-VSMarketplace-version-long", "bvvl"],
+		"body": [
+			"[![version](https://img.shields.io/visual-studio-marketplace/v/${0:extensionId}?style=flat-square&label=Visual%20Studio%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${0:extensionId})"
+		],
+		"description": "static badge using query string parameters"
+	}
+}

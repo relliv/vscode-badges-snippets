@@ -1,0 +1,82 @@
+{
+    "badge-VSMarketplace-version": {
+        "prefix": [
+            "Badge VSM Version",
+            "bvv"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/v/${1:extensionId}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code$0"
+        ],
+        "description": "static badge using query string parameters"
+    },
+    "badge-VSMarketplace-version-CLIPBOARD": {
+        "prefix": [
+            "Badge VSM Version-CLIPBOARD",
+            "bvvc"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/v/${CLIPBOARD:extensionId}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code$0"
+        ],
+        "description": "VS Marketplace extension version from CLIPBOARD"
+    },
+    "badge-VSMarketplace-version_style": {
+        "prefix": [
+            "Badge VSM Version_style",
+            "bvvs"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/v/${1:extensionId}?style=${2|flat-square,flat,plastic,for-the-badge,social|}&label=VS%20Marketplace&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-version_style"
+    },
+    "badge-VSMarketplace-version-long": {
+        "prefix": [
+            "Badge VSM Version_long",
+            "bvvl"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/v/${0:extensionId}?style=flat-square&label=Visual%20Studio%20Marketplace&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-version-long"
+    },
+    "badge-VSMarketplace-downloads": {
+        "prefix": [
+            "Badge VSM Downloads",
+            "bvd"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/d/${1:extensionId}?style=flat-square&label=downloads&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-downloads"
+    },
+    "badge-VSMarketplace-installs": {
+        "prefix": [
+            "Badge VSM Installs",
+            "bvi"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/i/${1:extensionId}?style=flat-square&label=installs&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-installs"
+    },
+    "badge-VSMarketplace-rating": {
+        "prefix": [
+            "Badge VSM Rating",
+            "bvr"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/r/${1:extensionId}?style=flat-square&label=rating&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-rating"
+    },
+    "badge-VSMarketplace-stars": {
+        "prefix": [
+            "Badge VSM Stars",
+            "bvs"
+        ],
+        "body": [
+            "https://img.shields.io/visual-studio-marketplace/stars/${1:extensionId}?style=flat-square&label=stars&logo=visual-studio-code$0"
+        ],
+        "description": "badge-VSMarketplace-stars"
+    }
+}

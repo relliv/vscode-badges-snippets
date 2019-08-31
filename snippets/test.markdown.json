@@ -1,0 +1,10 @@
+{
+    "hello": {
+        "prefix": "hello",
+        "body": [
+            "${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}",
+			"${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/}"
+        ],
+        "description": "Log output to console"
+    }
+}

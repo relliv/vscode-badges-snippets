@@ -1,0 +1,83 @@
+{
+    "name": "badged-snippets",
+    "displayName": "Badged Snippets",
+    "description": "Snippets to quickly insert shields.io badges into Markdown documents",
+    "version": "0.0.1",
+    "publisher": "alexzshl",
+    "license": "MIT",
+    "keywords": [
+        "snippets",
+        "badge",
+        "badges",
+        "shields",
+        "shieldsio",
+        "shields.io",
+        "markdown"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alexzshl/vscode-badges-snippets"
+    },
+    "homepage": "https://github.com/alexzshl/vscode-badges-snippets",
+    "bugs": {
+        "url": "https://github.com/alexzshl/vscode-badges-snippets/issues"
+    },
+    "icon": "images/logo.png",
+    "author": {
+        "name": "alexzshl"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/static.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/endpoint.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/dynamic.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/vsm.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/github.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/core/parameters.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/static.markdown.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/dynamic.markdown.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/vsm.markdown.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/github.markdown.json"
+            },
+            {
+                "language": "markdown",
+                "path": "./snippets/core/parameters.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "badge-dynamic-json": {
+        "prefix": [
+            "Badge Dynamic JSON"
+        ],
+        "body": [
+            "https://img.shields.io/badge/dynamic/json?color=brightgreen&label=${1:label}&query=%24.${3:query}&url=${2:data-url}$0"
+        ],
+        "decription": "badge-dynamic-json"
+    }
+    
+}
