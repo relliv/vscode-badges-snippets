@@ -1,65 +1,57 @@
-# snippet-badge README
+# snippet-badge
 
-This is the README for your extension "snippet-badge". After writing up a brief description, we recommend including the following sections.
+[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/alexzshl.badges-snippets?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=alexzshl.badges-snippets)
+
+Snippets to quickly insert shields.io badges into Markdown documents.
+
+## Preview
+
+![preview](images/preview.png)
+
+![preview](images/preview_01.gif)
+
+![preview](images/preview_02.gif)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Static badge with list of color/style/logo
+- Quick and easy service support
+- Quickly generate badges using clipboard data
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+none.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+If the snippets for markdown doesn't work,please add the following settings in settings.json:
 
-For example:
+```json
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true,
+    }
+  }
+```
 
-This extension contributes the following settings:
+## Usages
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+Enter the full name or shorthand for the code snippet item, select and press the tab key. Next you need to fill in the placeholders in order.
+
+- `badge static` or `bs` - Create tatic badge
+- `badge vsm version` - Create dynamic badge for an extension on Visual Studio Marketplace
+- `badge github stars` - Create dynamic badge for stars of a repository on Github
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+none.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
+### 0.0.1
 
 Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**

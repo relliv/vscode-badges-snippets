@@ -126,9 +126,7 @@
         ],
         "body": [
             "[![github-watchers](https://img.shields.io/github/watchers/${1:user}/${2:repo}?label=Watch&style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
-            "",
             "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
-            "",
             "[![github-forks](https://img.shields.io/github/forks/${1:user}/${2:repo}?label=Fork&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
         ],
         "description": "Github Main Badges\n\nwatchers\nstars\nforks"
@@ -140,9 +138,7 @@
         ],
         "body": [
             "[![github-watchers](https://img.shields.io/github/watchers/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Watch&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
-            "",
             "[![github-stars](https://img.shields.io/github/stars/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
-            "",
             "[![github-forks](https://img.shields.io/github/forks/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Fork&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})$0"
         ],
         "description": "Github Main Badges\n\nwatchers\nstars\nforks from CLIPBOARD"

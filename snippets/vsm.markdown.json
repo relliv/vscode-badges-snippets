@@ -86,13 +86,9 @@
         ],
         "body": [
             "[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/${1:extensionId}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})",
-            "",
             "[![vsm-downloads](https://img.shields.io/visual-studio-marketplace/d/${1:extensionId}?style=flat-square&label=downloads&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})",
-            "",
             "[![vsm-installs](https://img.shields.io/visual-studio-marketplace/i/${1:extensionId}?style=flat-square&label=installs&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})",
-            "",
             "[![vsm-rating](https://img.shields.io/visual-studio-marketplace/r/${1:extensionId}?style=flat-square&label=rating&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})",
-            "",
             "[![vsm-stars](https://img.shields.io/visual-studio-marketplace/stars/${1:extensionId}?style=flat-square&label=stars&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${1:extensionId})$0"
         ],
         "description": "badge-VSMarketplace-all"
@@ -104,13 +100,9 @@
         ],
         "body": [
             "[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/})",
-            "",
             "[![vsm-downloads](https://img.shields.io/visual-studio-marketplace/d/${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}?style=flat-square&label=downloads&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/})",
-            "",
             "[![vsm-installs](https://img.shields.io/visual-studio-marketplace/i/${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}?style=flat-square&label=installs&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/})",
-            "",
             "[![vsm-rating](https://img.shields.io/visual-studio-marketplace/r/${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}?style=flat-square&label=rating&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/})",
-            "",
             "[![vsm-stars](https://img.shields.io/visual-studio-marketplace/stars/${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}?style=flat-square&label=stars&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/})$0"
         ],
         "description": "badge-VSMarketplace-all"
