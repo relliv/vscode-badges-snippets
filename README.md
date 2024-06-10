@@ -39,7 +39,7 @@ If the snippets for markdown doesn't work,please add the following settings in s
 
 Enter the full name or shorthand for the code snippet item, select and press the tab key. Next you need to fill in the placeholders in order.
 
-- `badge static` or `bs` - Create tatic badge
+- `badge static` or `bs` - Create static badge
 - `badge vsm version` - Create dynamic badge for an extension on Visual Studio Marketplace
 - `badge github stars` - Create dynamic badge for stars of a repository on Github
 
@@ -49,9 +49,12 @@ none.
 
 ## Release Notes
 
+### 0.0.2
+
+
 ### 0.0.1
 
-Initial release of ...
+Initial release
 
 ## Thanks
 
