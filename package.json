@@ -1,90 +1,92 @@
 {
-    "name": "badges-snippets",
-    "displayName": "Badges Snippets",
-    "description": "Snippets to quickly insert shields.io badges into Markdown documents",
-    "version": "0.0.4",
-    "publisher": "alexzshl",
-    "license": "MIT",
-    "keywords": [
-        "snippets",
-        "badge",
-        "badges",
-        "shields",
-        "shieldsio",
-        "shields.io",
-        "markdown"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/alexzshl/vscode-badges-snippets"
-    },
-    "homepage": "https://github.com/alexzshl/vscode-badges-snippets",
-    "bugs": {
-        "url": "https://github.com/alexzshl/vscode-badges-snippets/issues"
-    },
-    "icon": "images/logo.png",
-    "badges": [
-        {
-            "url": "https://img.shields.io/github/license/alexzshl/vscode-badges-snippets?style=flat&color=lightgrey",
-            "href": "https://github.com/alexzshl/vscode-badges-snippets/blob/master/LICENSE",
-            "description": "license"
-        }
-    ],
-    "author": {
-        "name": "alexzshl"
-    },
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/static.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/endpoint.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/dynamic.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/vsm.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/github.json"
-            },
-            {
-                "language": "plaintext",
-                "path": "./snippets/core/parameters.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/static.markdown.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/dynamic.markdown.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/vsm.markdown.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/github.markdown.json"
-            },
-            {
-                "language": "markdown",
-                "path": "./snippets/core/parameters.json"
-            }
-        ]
+  "name": "shieldsio-snippets",
+  "displayName": "shields.io Snippets",
+  "description": "Snippets to quickly insert shields.io badges into Markdown documents",
+  "version": "0.0.4",
+  "publisher": "relliv",
+  "license": "MIT",
+  "keywords": [
+    "snippets",
+    "badge",
+    "badges",
+    "shields",
+    "shieldsio",
+    "shields.io",
+    "shields.io badges",
+    "shields.io snippets",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relliv/vscode-shieldsio-snippets"
+  },
+  "homepage": "https://github.com/relliv/vscode-shieldsio-snippets",
+  "bugs": {
+    "url": "https://github.com/relliv/vscode-shieldsio-snippets/issues"
+  },
+  "icon": "images/logo.png",
+  "badges": [
+    {
+      "url": "https://img.shields.io/github/license/relliv/vscode-shieldsio-snippets?style=flat&color=yellow",
+      "href": "https://github.com/relliv/vscode-shieldsio-snippets/blob/master/LICENSE",
+      "description": "license"
     }
+  ],
+  "author": {
+    "name": "relliv"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/static.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/endpoint.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/dynamic.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/vsm.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/github.json"
+      },
+      {
+        "language": "plaintext",
+        "path": "./snippets/core/parameters.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/static.markdown.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/dynamic.markdown.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/vsm.markdown.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/github.markdown.json"
+      },
+      {
+        "language": "markdown",
+        "path": "./snippets/core/parameters.json"
+      }
+    ]
+  }
 }
