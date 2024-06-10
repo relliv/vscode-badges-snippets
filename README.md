@@ -20,13 +20,9 @@ Snippets to quickly insert shields.io badges into Markdown documents.
 - Quick and easy service support
 - Quickly generate badges using clipboard data
 
-## Requirements
-
-none.
-
 ## Extension Settings
 
-If the snippets for markdown doesn't work,please add the following settings in settings.json:
+If the snippets for markdown doesn't work, please add the following settings in settings.json:
 
 ```json
   "[markdown]": {
@@ -46,9 +42,6 @@ Enter the full name or shorthand for the code snippet item, select and press the
 - `badge vsm version` - Create dynamic badge for an extension on Visual Studio Marketplace
 - `badge github stars` - Create dynamic badge for stars of a repository on Github
 
-## Known Issues
-
-none.
 
 ## Release Notes
 
