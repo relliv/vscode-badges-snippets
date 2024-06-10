@@ -1,20 +1,4 @@
 {
-	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	"hello": {
-		"prefix": "hello",
-		"body": [
-			// "${1:hello-${2:world}} echo ${3:test}"
-			"${CLIPBOARD/^https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=(.*)$/${1:NOT-A-VSM-URL}/}",
-			"${CLIPBOARD/^(https:\\/\\/marketplace\\.visualstudio\\.com\\/items\\?itemName=.*)$/${1:NOT-A-VSM-URL}/}",
-			// "${TM_FILENAME/README.(mm)?/${1:?mm:markdown}/}"
-			// "${1} ${2} -> ${1/Hello/Hallo/} ${2/World/Welt/}"
-		],
-		"description": "Log output to console"
-	},
 	"badge-static": {
 		"prefix": ["badge-static","bs"],
 		"body": [
