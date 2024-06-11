@@ -1,7 +1,7 @@
 {
   "name": "shieldsio-snippets",
   "displayName": "shields.io Snippets",
-  "description": "Snippets to quickly insert shields.io badges into Markdown documents",
+  "description": "shields.io snippets for markdown documents",
   "version": "0.0.2",
   "publisher": "relliv",
   "license": "MIT",
