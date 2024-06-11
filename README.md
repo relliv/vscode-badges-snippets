@@ -1,18 +1,25 @@
-# snippet-badge
+# vscode shields.io snippets
 
 [![vsm-version](https://img.shields.io/visual-studio-marketplace/v/alexzshl.badges-snippets?style=flat&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=alexzshl.badges-snippets)
 [![license](https://img.shields.io/github/license/relliv/vscode-shieldsio-snippets?style=flat&color=lightgrey)](https://github.com/relliv/vscode-shieldsio-snippets/blob/master/LICENSE)
 
-Snippets to quickly insert shields.io badges into Markdown documents.
+shields.io snippets for markdown documents.
 
 > [!WARNING]  
 > This repository forked from [alexzshl/vscode-badges-snippets](https://github.com/relliv/vscode-shieldsio-snippets/tree/dev) and **it is not official shields.io extension.**
 
 ## Preview
 
-![preview](images/preview_01.gif)
+### Icon badge generation
+![preview](./images/preview_generic-badge-generation.gif)
 
-![preview](images/preview_02.gif)
+### Github badge generation
+![preview](./images/preview_github-badge-example.gif)
+
+
+### Bulk badge generation
+
+![preview](./images/preview_github-bulk-badge-generation.gif)
 
 ## Features
 

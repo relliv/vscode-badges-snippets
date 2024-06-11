@@ -18,5 +18,12 @@
         "titleBar.inactiveBackground": "#70014499",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#700144"
+    "peacock.color": "#700144",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true,
+    }
+  }
 }
