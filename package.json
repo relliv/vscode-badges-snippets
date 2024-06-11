@@ -81,6 +81,10 @@
       },
       {
         "language": "markdown",
+        "path": "./snippets/npm.markdown.json"
+      },
+      {
+        "language": "markdown",
         "path": "./snippets/github.markdown.json"
       },
       {

@@ -1,0 +1,16 @@
+{
+  "badge-npm-downloads": {
+    "prefix": ["Badge NPM Downloads", "bnd"],
+    "body": [
+      "[![npm-downloads](https://img.shields.io/npm/${1|dw,dm,dy,d18m|}/${2:package})](https://www.npmjs.com/package/${2:package})$0"
+    ],
+    "description": "Badge for NPM downloads."
+  },
+  "badge-npm-bundle-size": {
+    "prefix": ["Badge NPM Bundle Size", "bnbs"],
+    "body": [
+      "[![npm-bundle-size](https://img.shields.io/bundlephobia/minzip/${1:package})](https://www.npmjs.com/package/${1:package})$0"
+    ],
+    "description": "Badge for NPM bundle size."
+  }
+}
