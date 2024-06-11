@@ -1,146 +1,153 @@
 {
-    "badge-github-labels": {
-        "prefix": [
-            "Badge Github Labels",
-            "bgl"
-        ],
-        "body": [
-            "[![github-labels](https://img.shields.io/github/labels/${1:user}/${2:repo}/${3:name}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-labels"
-    },
-    "badge-github-watchers": {
-        "prefix": [
-            "Badge Github Watchers",
-            "bgw"
-        ],
-        "body": [
-            "[![github-watchers](https://img.shields.io/github/watchers/${1:user}/${2:repo}?label=Watch&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-watchers"
-    },
-    "badge-github-followers": {
-        "prefix": [
-            "Badge Github Followers",
-            "bgfl"
-        ],
-        "body": [
-            "[![github-followers](https://img.shields.io/github/followers/${1:user}/${2:repo}?label=Follow&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-followers"
-    },
-    "badge-github-stars": {
-        "prefix": [
-            "Badge Github Stars",
-            "bgs"
-        ],
-        "body": [
-            "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-stars"
-    },
-    "badge-github-forks": {
-        "prefix": [
-            "Badge Github Forks",
-            "bgf"
-        ],
-        "body": [
-            "[![github-forks](https://img.shields.io/github/forks/${1:user}/${2:repo}?label=Fork&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-forks"
-    },
-    "badge-github-languages-count": {
-        "prefix": [
-            "Badge Github Languages-Count",
-            "bgw"
-        ],
-        "body": [
-            "[![github-lang-cout](https://img.shields.io/github/languages/count/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-languages-count"
-    },
-    "badge-github-top-language": {
-        "prefix": [
-            "Badge Github Language-Top",
-            "bglt"
-        ],
-        "body": [
-            "[![github-top-lang](https://img.shields.io/github/languages/top/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-top-language"
-    },
-    "badge-github-license": {
-        "prefix": [
-            "Badge Github License",
-            "bgl"
-        ],
-        "body": [
-            "[![github-license](https://img.shields.io/github/license/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-license"
-    },
-    "badge-github-manifest-version": {
-        "prefix": [
-            "Badge Github manifest version",
-            "bgmv"
-        ],
-        "body": [
-            "[![github-manifest.json-version](https://img.shields.io/github/manifest-json/v/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-manifest-version"
-    },
-    "badge-github-package-version": {
-        "prefix": [
-            "Badge Github package version",
-            "bgpv"
-        ],
-        "body": [
-            "[![github-package.json-version](https://img.shields.io/github/package-json/v/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-package-version"
-    },
-    "badge-github-release-version": {
-        "prefix": [
-            "Badge Github Release version",
-            "bgrv"
-        ],
-        "body": [
-            "[![github-release-version](https://img.shields.io/github/v/release/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo}/releases)$0"
-        ],
-        "description": "badge-github-release-version"
-    },
-    "badge-github-tag-version": {
-        "prefix": [
-            "Badge Github Tag version",
-            "bgtv"
-        ],
-        "body": [
-            "[![github-tag-version](https://img.shields.io/github/v/tag/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "badge-github-tag-version"
-    },
-    "badge-github-Main": {
-        "prefix": [
-            "Badge Github Main",
-            "bgm"
-        ],
-        "body": [
-            "[![github-watchers](https://img.shields.io/github/watchers/${1:user}/${2:repo}?label=Watch&style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
-            "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
-            "[![github-forks](https://img.shields.io/github/forks/${1:user}/${2:repo}?label=Fork&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
-        ],
-        "description": "Github Main Badges\n\nwatchers\nstars\nforks"
-    },
-    "badge-github-Main-CLIPBOARD": {
-        "prefix": [
-            "Badge Github Main CLIPBOARD",
-            "bgmc"
-        ],
-        "body": [
-            "[![github-watchers](https://img.shields.io/github/watchers/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Watch&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
-            "[![github-stars](https://img.shields.io/github/stars/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
-            "[![github-forks](https://img.shields.io/github/forks/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Fork&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})$0"
-        ],
-        "description": "Github Main Badges\n\nwatchers\nstars\nforks from CLIPBOARD"
-    }
+  "badge-github-labels": {
+    "prefix": ["Badge Github Labels", "bgl"],
+    "body": [
+      "[![github-labels](https://img.shields.io/github/labels/${1:user}/${2:repo}/${3:name}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-labels"
+  },
+  "badge-github-watchers": {
+    "prefix": ["Badge Github Watchers", "bgw"],
+    "body": [
+      "[![github-watchers](https://img.shields.io/github/watchers/${1:user}/${2:repo}?label=Watch&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-watchers"
+  },
+  "badge-github-followers": {
+    "prefix": ["Badge Github Followers", "bgfl"],
+    "body": [
+      "[![github-followers](https://img.shields.io/github/followers/${1:user}/${2:repo}?label=Follow&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-followers"
+  },
+  "badge-github-stars": {
+    "prefix": ["Badge Github Stars", "bgs"],
+    "body": [
+      "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-stars"
+  },
+  "badge-github-forks": {
+    "prefix": ["Badge Github Forks", "bgf"],
+    "body": [
+      "[![github-forks](https://img.shields.io/github/forks/${1:user}/${2:repo}?label=Fork&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-forks"
+  },
+  "badge-github-languages-count": {
+    "prefix": ["Badge Github Languages-Count", "bgw"],
+    "body": [
+      "[![github-lang-cout](https://img.shields.io/github/languages/count/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-languages-count"
+  },
+  "badge-github-top-language": {
+    "prefix": ["Badge Github Language-Top", "bglt"],
+    "body": [
+      "[![github-top-lang](https://img.shields.io/github/languages/top/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-top-language"
+  },
+  "badge-github-license": {
+    "prefix": ["Badge Github License", "bgl"],
+    "body": [
+      "[![github-license](https://img.shields.io/github/license/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-license"
+  },
+  "badge-github-manifest-version": {
+    "prefix": ["Badge Github manifest version", "bgmv"],
+    "body": [
+      "[![github-manifest.json-version](https://img.shields.io/github/manifest-json/v/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-manifest-version"
+  },
+  "badge-github-package-version": {
+    "prefix": ["Badge Github package version", "bgpv"],
+    "body": [
+      "[![github-package.json-version](https://img.shields.io/github/package-json/v/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-package-version"
+  },
+  "badge-github-release-version": {
+    "prefix": ["Badge Github Release version", "bgrv"],
+    "body": [
+      "[![github-release-version](https://img.shields.io/github/v/release/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo}/releases)$0"
+    ],
+    "description": "badge-github-release-version"
+  },
+  "badge-github-tag-version": {
+    "prefix": ["Badge Github Tag version", "bgtv"],
+    "body": [
+      "[![github-tag-version](https://img.shields.io/github/v/tag/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "badge-github-tag-version"
+  },
+  "badge-all-github-repo": {
+    "prefix": [
+      "Badge All Github Repo Badges",
+      "Github All",
+      "all github repo badges",
+      "bagr"
+    ],
+    "body": [
+      "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0",
+      "[![github-license](https://img.shields.io/github/license/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0",
+      "[![github-top-lang](https://img.shields.io/github/languages/top/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0",
+      "[![github-tag-version](https://img.shields.io/github/v/tag/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "All Github repo related most used badges. Contains: \n\n- stars\n\n- license\n\n- top-language\n\n-tag version"
+  },
+  "badge-all-github-repo-2": {
+    "prefix": [
+      "Badge All Github Repo Badges 2",
+      "Github All 2",
+      "all github repo badges 2",
+      "bagr2"
+    ],
+    "body": [
+      "[![github-watchers](https://img.shields.io/github/watchers/${1:user}/${2:repo}?label=Watch&style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
+      "[![github-stars](https://img.shields.io/github/stars/${1:user}/${2:repo}?style=social&logo=github)](https://github.com/${1:user}/${2:repo})",
+      "[![github-forks](https://img.shields.io/github/forks/${1:user}/${2:repo}?label=Fork&style=social&logo=github)](https://github.com/${1:user}/${2:repo})$0"
+    ],
+    "description": "All Github repo related secondary most used badges. Contains: \n\n- watchers\n\n- stars\n\n- forks"
+  },
+  "badge-all-github-repo-CLIPBOARD": {
+    "prefix": [
+      "Badge All Github Repo Badges [CLIPBOARD]",
+      "Github All [CLIPBOARD]",
+      "all github repo badges[CLIPBOARD]",
+      "bagr_clipboard"
+    ],
+    "body": [
+      "[![github-stars](https://img.shields.io/github/stars/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))",
+      "[![github-license](https://img.shields.io/github/license/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))",
+      "[![github-top-lang](https://img.shields.io/github/languages/top/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))",
+      "[![github-tag-version](https://img.shields.io/github/v/tag/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))"
+    ],
+    "description": "All Github repo related most used badges. \n\nCopy target Github repo link then this command. \n\nContains: stars, license, top-language, tag version"
+  },
+  "badge-all-github-repo-2-CLIPBOARD": {
+    "prefix": [
+      "Badge All Github Repo Badges 2 [CLIPBOARD]",
+      "Github All 2 [CLIPBOARD]",
+      "all github repo badges 2 [CLIPBOARD]",
+      "bagr2_clipboard"
+    ],
+    "body": [
+      "[![github-watchers](https://img.shields.io/github/watchers/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Watch&style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))",
+      "[![github-stars](https://img.shields.io/github/stars/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))",
+      "[![github-forks](https://img.shields.io/github/forks/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Fork&style=social&logo=github)]((${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/}))"
+    ],
+    "description": "All Github repo related secondary most used badges. \n\nCopy target Github repo link then this command. \n\nContains: watchers, stars, forks"
+  },
+  "badge-github-Main-CLIPBOARD": {
+    "prefix": ["Badge Github Main CLIPBOARD", "bgmc"],
+    "body": [
+      "[![github-watchers](https://img.shields.io/github/watchers/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Watch&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
+      "[![github-stars](https://img.shields.io/github/stars/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})",
+      "[![github-forks](https://img.shields.io/github/forks/${CLIPBOARD/^https:\\/\\/github\\.com\\/(.*)\\/(.*)$/${1:user}\\/${2:repo}/}?label=Fork&style=social&logo=github)](${CLIPBOARD/^(https:\\/\\/github\\.com\\/.*\\/.*)$/${1:NOT-A-GITHUB-REPO-HOME}/})$0"
+    ],
+    "description": "Github Main Badges\n\nwatchers\nstars\nforks from CLIPBOARD"
+  }
 }
