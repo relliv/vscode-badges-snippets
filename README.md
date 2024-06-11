@@ -1,6 +1,6 @@
 # vscode shields.io snippets
 
-[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/alexzshl.badges-snippets?style=flat&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=alexzshl.badges-snippets)
+[![vsm-version](https://img.shields.io/visual-studio-marketplace/v/relliv.shieldsio-snippets?style=flat&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=relliv.shieldsio-snippets)
 [![license](https://img.shields.io/github/license/relliv/vscode-shieldsio-snippets?style=flat&color=lightgrey)](https://github.com/relliv/vscode-shieldsio-snippets/blob/master/LICENSE)
 
 shields.io snippets for markdown documents.
