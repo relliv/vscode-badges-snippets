@@ -49,12 +49,13 @@ Enter the full name or shorthand for the code snippet item, select and press the
 - `badge vsm version` - Create dynamic badge for an extension on Visual Studio Marketplace
 - `badge github stars` - Create dynamic badge for stars of a repository on Github
 
-
 ## Release Notes
 
 ### 0.0.2
 
+- Added bulk Github repo snippets
+- Added NPM download and bundle size snippets
 
 ### 0.0.1
 
-Initial release
+- Initial release
